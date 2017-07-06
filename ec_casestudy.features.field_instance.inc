@@ -1359,129 +1359,6 @@ function ec_casestudy_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance:
-  // 'node-product_category-field_ref_prodcat_case_study'.
-  $field_instances['node-product_category-field_ref_prodcat_case_study'] = array(
-    'bundle' => 'product_category',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => 'Select case studies to display on this product category page.',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 6,
-      ),
-      'featured' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'grouped_teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'show_this_block' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 7,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_ref_prodcat_case_study',
-    'label' => 'Case Studies',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'entityreference',
-      'settings' => array(
-        'match_operator' => 'CONTAINS',
-        'path' => '',
-        'size' => 60,
-      ),
-      'type' => 'entityreference_autocomplete',
-      'weight' => 11,
-    ),
-  );
-
-  // Exported field_instance: 'node-product_page-field_ref_prodpage_case_study'.
-  $field_instances['node-product_page-field_ref_prodpage_case_study'] = array(
-    'bundle' => 'product_page',
-    'default_value' => NULL,
-    'default_value_function' => '',
-    'deleted' => 0,
-    'description' => 'Show this product on these case study pages.',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 3,
-      ),
-      'featured' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'grouped_teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'show_this_block' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 9,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 14,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_ref_prodpage_case_study',
-    'label' => 'Case Study',
-    'required' => 0,
-    'settings' => array(
-      'behaviors' => array(
-        'current' => array(
-          'status' => 0,
-        ),
-      ),
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'entityreference',
-      'settings' => array(
-        'match_operator' => 'CONTAINS',
-        'path' => '',
-        'size' => 60,
-      ),
-      'type' => 'entityreference_autocomplete',
-      'weight' => 21,
-    ),
-  );
-
   // Exported field_instance: 'node-promotion-field_ref_promo_case_study'.
   $field_instances['node-promotion-field_ref_promo_case_study'] = array(
     'bundle' => 'promotion',
@@ -1826,11 +1703,9 @@ function ec_casestudy_field_default_field_instances() {
   t('Number of Rooms');
   t('Project Outcome');
   t('Select a case study to display on this page');
-  t('Select case studies to display on this product category page.');
   t('Select case study pages on which to display this promo.');
   t('Select the case study pages on which to display this testimonial.');
   t('Show this blog post on these case studies.');
-  t('Show this product on these case study pages.');
   t('Square Footage');
   t('What was the issue this customer was facing?');
   t('Year Built');
