@@ -1500,7 +1500,7 @@ function ec_casestudy_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 10,
+        'weight' => 12,
       ),
       'featured' => array(
         'label' => 'above',
@@ -1565,7 +1565,7 @@ function ec_casestudy_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 10,
+        'weight' => 12,
       ),
       'featured' => array(
         'label' => 'above',
