@@ -53,10 +53,10 @@ function ec_casestudy_field_group_info() {
     'label' => 'Before Project',
     'weight' => '32',
     'children' => array(
-      0 => 'field_case_study_diagnosis',
-      1 => 'field_case_study_energy_before',
-      2 => 'field_case_study_issues',
-      3 => 'field_ref_case_study_galley_befo',
+      0 => 'field_ref_case_study_galley_befo',
+      1 => 'field_case_study_diagnosis',
+      2 => 'field_case_study_energy_before',
+      3 => 'field_case_study_issues',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
@@ -108,7 +108,7 @@ function ec_casestudy_field_group_info() {
   $field_group->parent_name = 'group_edit_content';
   $field_group->data = array(
     'label' => 'Project Info',
-    'weight' => '4',
+    'weight' => '5',
     'children' => array(
       0 => 'field_case_study_rooms',
       1 => 'field_case_study_square_footage',
@@ -227,12 +227,12 @@ function ec_casestudy_field_group_info() {
   $field_group->parent_name = 'group_edit_content';
   $field_group->data = array(
     'label' => 'Add this content to these pages',
-    'weight' => '5',
+    'weight' => '4',
     'children' => array(
-      0 => 'field_ref_case_study_testimonial',
-      1 => 'field_ref_case_study_citypages',
-      2 => 'field_ref_case_study_serv_cat',
-      3 => 'field_ref_case_study_service',
+      0 => 'field_ref_case_study_serv_cat',
+      1 => 'field_ref_case_study_service',
+      2 => 'field_ref_case_study_testimonial',
+      3 => 'field_ref_case_study_citypages',
     ),
     'format_type' => 'htab',
     'format_settings' => array(
